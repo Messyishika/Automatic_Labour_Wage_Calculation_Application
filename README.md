@@ -9,4 +9,18 @@ https://youtu.be/G3CQsziaCk8
 4) Install PyCharm Community Version: 2022.1.1
 5) Run the getLabourDetails.py file
 6)In browser type - localhost/myproject/Login.html and you are good to go.
-For admin login - username = Admin , password = pass123
+7) For admin login - username = Admin , password = pass123
+# Database link
+1) information : http://localhost/phpmyadmin/index.php?route=/sql&pos=0&db=mysql&table=information
+2) attendance : http://localhost/phpmyadmin/index.php?route=/sql&pos=0&db=mysql&table=attendance
+# Snapshot 
+1) Admin Login:![Screenshot (252)](https://user-images.githubusercontent.com/95583123/170882921-e3779d5d-2a2c-472b-ab09-1e9ed47508a8.png)
+2) After logging in:![Screenshot (253)](https://user-images.githubusercontent.com/95583123/170882968-9628fd4f-4010-4b0d-9b66-846b313414e9.png)
+3) Register Page:![Screenshot (260)](https://user-images.githubusercontent.com/95583123/170883162-b3a2ee6b-b81d-4630-be64-08a51eef40c2.png)
+4) After Registration:![Screenshot (254)](https://user-images.githubusercontent.com/95583123/170883035-f9aad5e9-5690-4a99-b1d8-b60cb334a2f7.png)
+5) Scan Face Page:![Screenshot (256)](https://user-images.githubusercontent.com/95583123/170883072-9bb02701-6f00-4e62-adb1-12a309da4d7a.png)
+6) After pressing Submit Button:![Screenshot (257)](https://user-images.githubusercontent.com/95583123/170883101-9032850a-204e-4297-b769-968137e24555.png)
+![Screenshot (258)](https://user-images.githubusercontent.com/95583123/170883110-10957f72-4d6b-468e-a0a9-56a8c151c634.png)
+7) After clicking Logout:![Screenshot (259)](https://user-images.githubusercontent.com/95583123/170883146-7798f2cc-32d3-4ced-a4fc-bdbf49d06dea.png)
+ 
+
