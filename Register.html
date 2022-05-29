@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Register</title>
+  <link rel = "stylesheet"  type = "text/css" href = "Register.css">
+</head>
+<body>
+<form action="Register.php" method ="post" enctype="multipart/form-data">
+  <h1>Register</h1>
+  <input type="text" name="Name" placeholder="Name">
+  <input type="text" name="Category" list="Category" placeholder="Category">
+  <datalist id="Category">
+    <option>Skilled</option>
+    <option>Semi-Skilled</option>
+    <option>Unskilled</option>
+  </datalist>
+  <input type="text" name="Labour_Id" placeholder="Labour_Id">
+  <input type="text" name="Pay_per_hour"  list="Pay_per_hour" placeholder="Pay_per_hour">
+  <datalist id="Pay_per_hour">
+    <option> 48.75</option>
+    <option>34.80</option>
+    <option>25.08</option>
+  </datalist>
+  <input type="text" name="Phone_No" placeholder="Phone_No">
+  <input type="text" name="Address" placeholder="Address">
+  <br>Select image to upload:</br>
+ <em> <br>Name your image in this format "Name,Labour_Id"</br></em>
+  <em> Example - "Ram Kumar,LB12"</em>
+    <input type="file" name="fileToUpload" id="fileToUpload">
+  <button type="submit">Register</button>
+</form>
+</body>
+</html>

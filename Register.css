@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    paddings: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+ }
+ body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: pink;
+ }
+ form{
+    margin-top: 50px;
+    text-align: center;
+}
+input{
+    display: block;
+    width: 350px;
+    height: 40px;
+    margin: 20px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    border-bottom: 1px solid black;
+    background: transparent;
+}
+button{
+    width: 350px;
+    height: 40px;
+    font-size: 20px;
+    background-color: blue;
+    border: none;
+    color: white;
+    margin-top: 20px;
+}
+form h1{
+    margin-bottom: 50px;
+    text-align: center;
+}
+::placeholder{
+    color: black;
+}
+input{
+    display: block;
+    width:350px;
+}

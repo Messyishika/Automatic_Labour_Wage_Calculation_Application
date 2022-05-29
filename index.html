@@ -1,0 +1,64 @@
+<form name="fir_filter">
+    <input type="button" onclick="fun_fir()" value="Get Data" />
+</form>
+
+<div class="filter_result1">
+    <table class="table" id="fir_table">
+        <thead></thead>
+        <tbody></tbody>
+    </table>
+</div>
+
+<script>
+async function loadIntoTable(url, table){
+        const tableHead = table.querySelector("thead");
+        const tableBody = table.querySelector("tbody");
+        const response = await fetch(url);
+        const { headers, rows } = await response.json();
+
+        // Clear the table
+        tableHead.innerHTML = "<tr></tr>";
+        tableBody.innerHTML = "";
+
+        // Populate the headers
+        for (const headerText of headers) {
+            const headerElement = document.createElement("th");
+
+            headerElement.textContent = headerText;
+            tableHead.querySelector("tr").appendChild(headerElement);
+        }
+
+        // Populate rows
+        for (const row of rows) {
+            const rowElement = document.createElement("tr");
+
+            for (const cellText of row) {
+                const cellElement = document.createElement("td");
+
+                cellElement.textContent = cellText;
+                rowElement.appendChild(cellElement);
+            }
+
+            tableBody.appendChild(rowElement);
+        }
+    }
+
+
+
+        function fun_fir() {
+            var url = "http://localhost:5000";
+            var xhr = new XMLHttpRequest();
+            xhr.open('GET', url, true);
+            xhr.send();
+            
+            xhr.onreadystatechange = processRequest;
+            
+            function processRequest(e) {
+                if (xhr.readyState == 4 && xhr.status == 200) {
+                    var response1 = JSON.parse(xhr.responseText);
+                    loadIntoTable(url, document.querySelector("#fir_table"))
+                }
+            }           
+        }   
+    
+</script>
