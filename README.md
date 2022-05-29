@@ -1,0 +1,2 @@
+# Automatic_Labour_Wage_Calculation_Application
+This is an application designed under Microsoft Engage Mentorship Program 2022. This is a web application that can be used by organisations that cater with a lot of labourers employed, the application would scan the face of the labourer and the his/her details together with the total hours he worked and his total wage.And also if  a new labourer comes he/she can register themselves.
