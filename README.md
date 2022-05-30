@@ -17,8 +17,8 @@ https://youtu.be/G3CQsziaCk8
 https://docs.google.com/presentation/d/1gbu8bSVMXq-MPS7ua37pCLHl_91BxBSTPuJ7814R3cA/edit#slide=id.g1f87997393_0_782
 # Snapshot 
 1) Admin Login:![Screenshot (252)](https://user-images.githubusercontent.com/95583123/170882921-e3779d5d-2a2c-472b-ab09-1e9ed47508a8.png)
-2) After logging in:![Screenshot (253)](https://user-images.githubusercontent.com/95583123/170882968-9628fd4f-4010-4b0d-9b66-846b313414e9.png)
-3) Register Page:![Screenshot (263)](https://user-images.githubusercontent.com/95583123/170933551-99aa1709-d1d1-4195-9572-50f2b66d727d.png)
+2) After logging in:![Screenshot (263)](https://user-images.githubusercontent.com/95583123/170934703-e40b10fc-3dd3-4b62-a815-9c25ceb4a3ea.png)
+3) Register Page:![Screenshot (260)](https://user-images.githubusercontent.com/95583123/170934786-932cef73-d428-41b2-b7be-176ca1139cb4.png)
 4) After Registration:![Screenshot (254)](https://user-images.githubusercontent.com/95583123/170883035-f9aad5e9-5690-4a99-b1d8-b60cb334a2f7.png)
 5) Scan Face Page:![Screenshot (256)](https://user-images.githubusercontent.com/95583123/170883072-9bb02701-6f00-4e62-adb1-12a309da4d7a.png)
 6) After pressing Submit Button:![Screenshot (257)](https://user-images.githubusercontent.com/95583123/170883101-9032850a-204e-4297-b769-968137e24555.png)
